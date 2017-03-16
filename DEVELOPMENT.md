@@ -16,7 +16,8 @@
                   "s3:DeleteObject",
                   "s3:GetObject",
                   "s3:ListBucket",
-                  "s3:PutObject"
+                  "s3:PutObject",
+                  "s3:GetObjectTagging"
               ],
               "Resource": [
                   "arn:aws:s3:::YOUR_BUCKET",
